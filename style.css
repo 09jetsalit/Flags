@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h2{
     text-align: center;
+    margin: 30px 0px 10px 0px;
 }
 
 .box{
-    border: 1px solid red;
+      /* border: 1px solid red; */
     text-align: center;
+}
+.bot{
+    margin-bottom: 40px;
 }
 
 .flag{
@@ -18,8 +27,68 @@ h2{
         width: 300px;
         height: 200px;
         border: 2px solid #111;
-        margin: 1.5rem auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+.it1{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 33.33%;
+    background-color: green;
+}
 
 
+.it2{
+    position: absolute;
+    top: 0;
+    left: 33.33%;
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+}
+
+.it3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 33.33%;
+    background-color: red;
+}
+
+
+.ger1{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 33.33%;
+}
+
+.ger2{
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 33.33%;
+    top: 33.33%;
+}
+
+.ger3{
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+    height: 33.33%;
+    bottom: 0;
+}
+
+.japan-red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
